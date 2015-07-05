@@ -1,0 +1,20 @@
+{
+  "name": "rql-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rest-ql/rql-sample",
+  "authors": [
+    "Alexandr Gureev <oleksandr.gureiev@gmail.com>"
+  ],
+  "main": "web/js/main.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "rql-js-client": "rest-ql/rql-js-client"
+  }
+}
