@@ -1,8 +1,11 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         bowerRequirejs: {
-            target: {
-                rjsConfig: './web/js/config.js'
+            all: {
+                rjsConfig: './web/scripts/app.js',
+                options: {
+                    baseUrl: './web/scripts/app'
+                }
             }
         }
     });

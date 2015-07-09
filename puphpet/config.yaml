@@ -202,7 +202,6 @@ php:
             - curl
         pear: {  }
         pecl:
-            - ZendOpcache
             - PDO
             - PDO_MYSQL
             - PDO_SQLITE
@@ -215,6 +214,7 @@ php:
     ini:
         display_errors: On
         error_reporting: '-1'
+        always_populate_raw_post_data: '-1'
         session.save_path: /var/lib/php/session
         date.timezone: Europe/Kiev
     fpm_ini:
@@ -299,7 +299,7 @@ mysql:
     databases:
         mysqlnd_vce5m6m9t231:
             name: automobile
-            sql: ./db/es_ebay.sql
+            sql: ''
     grants:
         mysqlng_iy7g0kbl9pby:
             user: automobile

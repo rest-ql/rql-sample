@@ -5,7 +5,7 @@
   "authors": [
     "Alexandr Gureev <oleksandr.gureiev@gmail.com>"
   ],
-  "main": "web/js/main.js",
+  "main": "web/scripts/app.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -15,6 +15,11 @@
     "tests"
   ],
   "dependencies": {
-    "rql-js-client": "rest-ql/rql-js-client"
+    "rql-js-client": "rest-ql/rql-js-client",
+    "jquery": "jquery/jquery",
+    "underscore": "jashkenas/underscore"
+  },
+  "scripts": {
+    "postinstall": "grunt bowerRequirejs"
   }
 }
